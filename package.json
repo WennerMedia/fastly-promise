@@ -1,0 +1,22 @@
+{
+  "name": "fastly-promise",
+  "version": "1.0.0",
+  "description": "Fastly API client for promise based control flow.",
+  "main": "lib/fastlyPromise.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WennerMedia/fastly-promise.git"
+  },
+  "keywords": [
+    "Fastly",
+    "API",
+    "Promises",
+    "Client"
+  ],
+  "author": "Reid Mayo <reidmayo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WennerMedia/fastly-promise/issues"
+  },
+  "homepage": "https://github.com/WennerMedia/fastly-promise"
+}

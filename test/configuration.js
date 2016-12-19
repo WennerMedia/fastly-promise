@@ -118,23 +118,6 @@ describe('FastlyPromise Configuration Methods', function() {
 
     });
 
-    //TODO: This endpoint is having some issues on Fastly's end. Uncomment test when Fastly patches the issue.
-    // describe('#updateConfigVersion', function() {
-    //
-    //   it('should update the new cloned config version', function() {
-    //     console.log(clonedVersionsConfigVersionNumber, 'updated config num');
-    //     return fastly.updateConfigVersion(serviceId, clonedVersionsConfigVersionNumber, false, false, true)
-    //       .then(function(configVersion){
-    //         console.log(configVersion);
-    //         configVersion.service_id.should.equal(serviceId);
-    //         configVersion.deployed.should.equal(true);
-    //         configVersion.staging.should.equal(true);
-    //         configVersion.testing.should.equal(true);
-    //       });
-    //   });
-    //
-    // });
-
     describe('#validateConfigVersion', function() {
 
       it('should validate the cloned config version successfully', function() {

@@ -1,6 +1,6 @@
 {
   "name": "fastly-promise",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Fastly API client for promise based control flow.",
   "main": "lib/fastlyPromise.js",
   "scripts": {

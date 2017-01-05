@@ -238,6 +238,30 @@ describe('FastlyPromise Configuration Methods', function() {
 
     });
 
+    describe('#getVclHtml', function() {
+
+      it('should return an object with the html encoded VCL');
+
+    });
+
+    describe('#getVclText', function() {
+
+      it('should return VCL as a string');
+
+    });
+
+    describe('#getGeneratedVcl', function() {
+
+      it('should return a generated VCL object');
+
+    });
+
+    describe('#getGeneratedVclHtml', function() {
+
+      it('should return a generated VCL object with the VCL content HTML encoded.');
+
+    });
+
     describe('#getMainVcl', function() {
 
       it('should return the main VCL object', function() {

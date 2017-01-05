@@ -1,8 +1,11 @@
 {
   "name": "fastly-promise",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Fastly API client for promise based control flow.",
   "main": "lib/fastlyPromise.js",
+  "scripts": {
+    "test": "mocha --ui bdd --reporter spec --recursive"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/WennerMedia/fastly-promise.git"
@@ -20,8 +23,13 @@
   },
   "homepage": "https://github.com/WennerMedia/fastly-promise",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "ramda": "^0.22.1",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
   }
 }
